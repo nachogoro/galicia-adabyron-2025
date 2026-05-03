@@ -62,8 +62,7 @@ La misma estrategia de dos pasadas funciona usando un `multiset<int>` como
 ventana en lugar de la *monotonic queue*. El multiset mantiene los valores
 de la ventana ordenados; al avanzar una posición se inserta el nuevo
 elemento y se borra el que sale, con coste $O(\log k)$ cada operación, y
-las consultas de máximo y mínimo son $O(1)$ ($\text{begin()}$ y
-$\text{rbegin()}$).
+las consultas de máximo y mínimo son $O(1)$ (`begin()` y `rbegin()`).
 
 El coste total sube a $O(H \cdot W \cdot (\log M + \log N))$, pero sigue
 entrando con holgura en los límites del problema y la implementación es más
@@ -84,5 +83,5 @@ Por caso de prueba:
 
 | Solución | Descripción | Verificado con el juez |
 | :------: | :---------: | :--------------------: |
-| [I_monotonic.cpp](src/I_monotonic.cpp) | Doble pasada de ventana deslizante con *monotonic queue* en $O(H \cdot W)$ | :white_check_mark: |
-| [I_multiset.cpp](src/I_multiset.cpp) | Misma estrategia con `multiset<int>` como ventana, $O(H \cdot W \log(MN))$ | :white_check_mark: |
+| [I_monotonic.cpp](src/I_monotonic.cpp) | Doble pasada de ventana deslizante con *monotonic queue* | :white_check_mark: |
+| [I_multiset.cpp](src/I_multiset.cpp) | Misma estrategia con `multiset<int>` como ventana | :white_check_mark: |
