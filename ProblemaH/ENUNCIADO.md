@@ -38,6 +38,8 @@ del nivel 1 y luego al guerrero del nivel 5. La secuencia en la que Fiona visita
 siguiente: 3, 4, 2, 1, 5. Nota: si inicialmente Fiona hubiese decidido infiltrarse en el nivel 1, hubiese
 fallado la misión.
 
+![](images/example.png)
+
 ## Entrada
 
 La primera línea de la entrada contiene dos enteros $N$ y $V$ ($0 < N \leq 500$ y $0 < V \leq 10^9$) correspondientes

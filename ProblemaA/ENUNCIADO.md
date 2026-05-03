@@ -21,6 +21,8 @@ de la muralla que ofrece máxima protección.
 Ejemplo: Se dispone de una muralla de 6 bloques de piedra de 1 metro de ancho y las alturas que se
 muestran en la siguiente figura (10, 12, 7, 3, 8, 12).
 
+![](images/example.png)
+
 Para este ejemplo, el tramo rectangular más grande se forma utilizando los 3 primeros bloques con
 una altura mínima de 7 y un ancho de 3, es decir, un área de 7 x 3 = 21.
 

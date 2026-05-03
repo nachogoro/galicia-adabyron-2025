@@ -14,6 +14,8 @@ A continuación se muestra un ejemplo para un terreno de tamaño $4 \times 5$ do
 submatriz de tamaño $3 \times 2$. Para esta submatriz, la celda más baja tiene altura 8 y la más alta tiene
 altura 80. Por lo tanto, el coste de nivelación de esta submatriz es $80 - 8 = 72$.
 
+![](images/example.png)
+
 Gaellicus desea encontrar una submatriz de forma que el coste de nivelación sea mínimo.
 
 ## Entrada
